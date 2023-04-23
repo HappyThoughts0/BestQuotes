@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: auto;
+  height: 100vh;
+  margin: 0;
+  padding: 10% 10%;
+  /* background-color: rgb(223, 208, 191); */
+  background-image: url("img-1.jpg");
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  background-position: center;
+}
+
+.block {
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: space-between; */
+  /* background-color: aqua; */
+  /* height: 150px; */
+  width: auto;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(95, 59, 59);
+  padding: 20px 20px;
+  display: flex;
+  /* align-self: center; */
+  align-items: center;
+  justify-content: center;
+  margin: 30px 20px;
+}
+
+.btn {
+  display: flex;
+  padding: 10px 40px;
+  background-color: rgb(97, 49, 173);
+  color: rgb(246, 244, 247);
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+
+  width: auto;
+  margin: 0 auto;
+  /* font-weight: ; */
+  border: none;
+}
+
+/*
+.colorBlock {
+  display: inline-block;
+  width: 15%;
+  height: 15%;
+  
+  font-size: 20px;
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+ 
+} */
+
+/* 
+.blue {
+  background-color: rgb(11, 159, 245);
+}
+
+.red {
+  background-color: rgb(241, 4, 4);
+} */
